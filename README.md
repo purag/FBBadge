@@ -3,7 +3,6 @@
 ###Created by Purag Moumdjian
 Facebook: [http://facebook.com/purmou](http://facebook.com/purmou) <br>
 Twitter: [http://twitter.com/purmou](http://twitter.com/purmou)
-
     
 ###Version 1.0
 07.12.2012
@@ -17,7 +16,7 @@ You enter parameters into the url that index.php parses for the page type and us
   
 ###Files
 - `.htacces` (78B)
- - Rewrites '/[t]/[u]' to '?t=[t]&u=[u]'. [t] is the page type ('user' or 'page') and [u] is the username.
+ - Rewrites `/[t]/[u]` to `?t=[t]&u=[u]`. `[t]` is the page type (`user` or `page`) and `[u]` is the username.
 - `examples.html` (1.04KB)
  - Demonstrates usage of the iframe to use this plugin.
 - `fb.fancy.css` (877B)
@@ -30,8 +29,6 @@ You enter parameters into the url that index.php parses for the page type and us
  - Uncompressed JS/jQuery with comments. (for developers)
 - `index.php` (1.66KB)
  - The page that grabs the URL parameters and holds the badge container and like and subscribe buttons.
-- `info.txt` (2.36KB)
- - Current file. Information about the plugin.
     
 ###Instructions
 Use this iframe on any page:
