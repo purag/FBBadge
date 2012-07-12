@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^([a-z]+)/([a-zA-Z\.]+)$ index.php?t=$1&u=$2 [L]
