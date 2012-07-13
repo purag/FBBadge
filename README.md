@@ -17,7 +17,7 @@ You enter parameters into the url that index.php parses for the page type and us
 ###Files
 - [`.htacces`](FBBadge/blob/master/.htaccess) (78B)
  - Rewrites `/[t]/[u]` to `?t=[t]&u=[u]`. `[t]` is the page type (`user` or `page`) and `[u]` is the username.
-- [`examples.html`](FBBadge/blob/master/example.html) (1.04KB)
+- [`examples.html`](FBBadge/blob/master/examples.html) (1.04KB)
  - Demonstrates usage of the iframe to use this plugin.
 - [`fb.fancy.css`](FBBadge/blob/master/fb.fancy.css) (877B)
  - CSS for the badge.
@@ -32,7 +32,9 @@ You enter parameters into the url that index.php parses for the page type and us
     
 ###Instructions
 Use this iframe on any page:
-    &#60;iframe src="http://shounig.com/fbfancy/[t]/[u]" scrolling="no" frameborder="0" style="border:none;width:300px;height:215px;" allowTransparency="true"></iframe></code>
+
+    <iframe src="http://shounig.com/fbfancy/[t]/[u]" scrolling="no" frameborder="0" style="border:none;width:300px;height:215px;" allowTransparency="true"></iframe>
+    
 Replace [t] with either 'user' or 'page' depending on what you're making the badge for.<br>
 Replace [u] with the username of the profile or page.<br>
 And that's it!
