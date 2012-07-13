@@ -32,7 +32,7 @@ You enter parameters into the url that index.php parses for the page type and us
     
 ###Instructions
 Use this iframe on any page:
-    <code><iframe src="http://shounig.com/fbfancy/[t]/[u]" scrolling="no" frameborder="0" style="border:none;width:300px;height:215px;" allowTransparency="true"></iframe></code>
+    &#60;iframe src="http://shounig.com/fbfancy/[t]/[u]" scrolling="no" frameborder="0" style="border:none;width:300px;height:215px;" allowTransparency="true"></iframe></code>
 Replace [t] with either 'user' or 'page' depending on what you're making the badge for.<br>
 Replace [u] with the username of the profile or page.<br>
 And that's it!
