@@ -15,19 +15,19 @@ The files are currently hosted live on my server at [http://shounig.com/fbfancy]
 You enter parameters into the url that index.php parses for the page type and username. These values are written into data- attributes in the page, which the JS grabs and uses in the JSON call to the Graph API. The information returned from the JSON call are set as variables and used to construct the badge.
   
 ###Files
-- [`.htacces`](.htaccess) (78B)
+- [`.htacces`](FBBadge/.htaccess) (78B)
  - Rewrites `/[t]/[u]` to `?t=[t]&u=[u]`. `[t]` is the page type (`user` or `page`) and `[u]` is the username.
-- [`examples.html`](example.html) (1.04KB)
+- [`examples.html`](FBBadge/example.html) (1.04KB)
  - Demonstrates usage of the iframe to use this plugin.
-- [`fb.fancy.css`](fb.fancy.css) (877B)
+- [`fb.fancy.css`](FBBadge/fb.fancy.css) (877B)
  - CSS for the badge.
-- [`fb.fancy.js`](fb.fancy.js) (1.96KB)
+- [`fb.fancy.js`](FBBadge/fb.fancy.js) (1.96KB)
  - Uncompressed JS/jQuery. (for developers)
-- [`fb.fancy.min.js`](fb.fancy.min.js) (1.21KB)
+- [`fb.fancy.min.js`](FBBadge/fb.fancy.min.js) (1.21KB)
  - Compressed JS/jQuery.
-- [`fb.fancy.tut.js`](fb.fancy.tut.js) (4.14KB)
+- [`fb.fancy.tut.js`](FBBadge/fb.fancy.tut.js) (4.14KB)
  - Uncompressed JS/jQuery with comments. (for developers)
-- [`index.php`](index.php) (1.66KB)
+- [`index.php`](FBBadge/index.php) (1.66KB)
  - The page that grabs the URL parameters and holds the badge container and like and subscribe buttons.
     
 ###Instructions
